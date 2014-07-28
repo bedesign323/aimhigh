@@ -1,0 +1,31 @@
+name =  Base
+description = The main theme for  Base.
+version = VERSION
+core = 7.x
+engine = phptemplate
+
+;CSS
+stylesheets[all][] = jquery.mCustomScrollbar.css
+stylesheets[all][] = css/style.css
+
+
+; JS
+scripts[] = js/icheck.min.js
+scripts[] = jquery.mCustomScrollbar.concat.min.js
+;scripts[] = js/jquery.cookie.js
+;scripts[] = js/sidebar.js
+scripts[] = js/init.js
+
+; REGIONS
+regions[page_top] = Page top
+regions[header] = Header
+regions[nav_main] = Main Navigation
+regions[highlight] = Highlight
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First sidebar
+regions[footer_main] = Footer Main
+regions[page_bottom] = Page bottom
+
+; PANEL LAYOUTS
+plugins[panels][layouts] = layouts

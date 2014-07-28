@@ -1,0 +1,183 @@
+/* VARS 
+-------------------------------------------------------------- */
+$body_width: 				100%;
+$main_width:				1000px;
+$gutter:					   10px;
+$controls_width:			40px;
+$body_pad:					20px;
+$main_width: 				800px;
+$footer_height: 			350px;
+$socail_width: 			50px;
+$extras_width:      350px;
+$logo_width:      5%;
+
+$bp_lg:           1600px;
+$bp_med:          950px;
+$bp_sm:           600px;
+
+/*  COLORS  */
+$color_main:         #888;                 
+$color_accent:       #e4ba27;              
+$color_main_lt:      lighten($color_main, 10%);
+$page_bg:            #fff;
+
+/*  TYPOGROPHY */
+$font_main:					'GaramondPremierProLightDisplay', serif;
+$font_header:				'Raleway', sans-serif;
+$font_fancy:        'GaramondPremierProLightItalicDisplay', serif;
+
+$font_weight_lt:         100;
+$font_weight_reg:        400;
+$font_weight_bold:       700;
+
+/*  TRANSITIONS  */
+$default-transition-property : all;
+$default-transition-duration : .3s;
+$default-transition-function : false;
+$default-transition-delay    : false;
+
+$border_solid_lt:       lighten($color_main_lt, 15%) solid 1px;
+$border_solid_accent:   $color_accent solid 1px;
+$border_dashed_lt:      lighten($color_main_lt, 15%) dashed 1px;
+$border_dashed_accent:  $color_accent dashed 1px;
+
+/* MIX-INS 
+-------------------------------------------------------------- */
+@mixin bp($point) {
+  @if $point == l {
+    @media (max-width: $bp_lg) { @content; }
+  }
+  @else if $point == m {
+    @media (max-width: $bp_med) { @content; }
+  }
+  @else if $point == s {
+    @media (max-width: $bp_sm)  { @content; }
+  }
+}
+
+
+/* PLACEHOLDERS
+-------------------------------------------------------------- */
+%text_btn{
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 2px;
+  font-family: $font_header;
+  font-weight: $font_weight_reg;
+}
+
+%a_color_main{
+  color: $color_main;
+
+  &:hover{
+    color: $color_accent;
+  }
+}
+
+%a_color_lt{
+  color: $color_main_lt;
+
+  &:hover{
+    color: $color_accent;
+  }
+}
+
+%a_color_wt{
+  color: #fff;
+
+  &:hover{
+    color: $color_main;
+  }
+}
+
+%bull{
+  color: $color_accent;
+  margin: 0 10px;
+}
+
+
+
+
+/* BASIC STYLES
+-------------------------------------------------------------- */
+*{
+  @include box-sizing('border-box');
+}
+
+body{
+  font-family: $font_main;
+  background-color: $page_bg;  
+  color: $color_main;
+  font-size: 18px;
+  font-weight: $font_weight_lt; 
+}
+
+a{
+  @include transition;
+  color: $color_accent;
+  text-decoration: none;
+  
+  &:hover{
+    color: $color_main;
+  }
+}
+
+p{
+  font-size: 20px;
+  line-height: 26px;
+}
+
+ul,
+ul.menu,
+ul.menu li{
+  list-style: none;
+  text-align: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+li a.active,
+li.opened span.nolink{color: $color_main;}
+
+
+.bull{
+  @extend %bull;
+}
+
+
+/* TYPOGRAPHY STYLES
+-------------------------------------------------------------- */
+body{
+}
+
+h1, h2, h3, h4{
+  font-weight: $font_weight_lt;
+  font-family: $font_header;
+}
+
+h1{
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
