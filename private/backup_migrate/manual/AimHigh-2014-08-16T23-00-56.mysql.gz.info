@@ -1,0 +1,8 @@
+filename = "AimHigh-2014-08-16T23-00-56"
+description = ""
+datestamp = "1408255258"
+generator = "Backup and Migrate (http://drupal.org/project/backup_migrate)"
+generatorversion = "7.x-2.x"
+sites[0][version] = "7.28"
+sites[0][name] = "Aim High"
+sites[0][url] = "http://aimhigh.dev/"

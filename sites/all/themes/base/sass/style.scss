@@ -962,11 +962,11 @@ body.mceContentBody,
 	p + p,
 	div + p,
 	p + h3{
-		margin-top: 60px !important;
+		/*margin-top: 60px !important;
 
 		@include bp(s){
 			margin-top: 20px !important;
-		}
+		}*/
 	}
 
 	.media-element{
@@ -1108,6 +1108,17 @@ body.mceContentBody,
 		padding: 0;
 		text-align: center;
 	}
+}
+
+.image-half-left,
+.image-half-right,
+.image-post-full,
+.image-post-center,
+.push-center,
+.push-left,
+.push-right,
+.fluid-width-video-wrapper{
+	margin-bottom: 60px;
 }
 
 .image-post_half{
