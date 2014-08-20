@@ -8,18 +8,13 @@
 
 	<div class="body"><?php print $body; ?></div>
 
-	<div class="end-article">~</div>
-	
-	<div class="about-author">
-		<h2>About the author</h2>
-		<div class="author">
-			<div class="profile teaser">
-				<div class="profile-image"><?php print $author_profile_image; ?></div>
-				<h3><?php print $author_link; ?></h3>
-				<div class="short-bio"><?php print $author_short_bio; ?></div>
+	<?php if(isset($credits)): ?>
+
+		<div class="credits">
+			<h2>Credits:</h2>
+			<?php print $credits; ?>
 		</div>
-		</div>
-	</div>
+	<?php endif; ?>
 
 	<div class="sections-tags">
 		<div class="sections">
@@ -33,6 +28,21 @@
 		</div>
 	</div>
 
+
+	<div class="end-article">~</div>
+	
+	<div class="about-author">
+		<h2>About the author</h2>
+		<div class="author">
+			<div class="profile teaser">
+				<div class="profile-image"><?php print $author_profile_image; ?></div>
+				<h3><?php print $author_link; ?></h3>
+				<div class="short-bio"><?php print $author_short_bio; ?></div>
+		</div>
+		</div>
+	</div>
+
+	
 	
 
 	<div class="share-post">

@@ -143,7 +143,7 @@ h1,
 
 	a{
 		display: block;
-		background: url(../images/AH_logo-big.png) no-repeat;
+		background: url(../images/AH-logo-big.svg) no-repeat;
 		width: 100%;
 		height: 100%;
 		background-size: contain;
@@ -163,7 +163,7 @@ h1,
 		z-index: 1;
 
 		a{
-			background: url(../images/AH_logo-mobile.png) no-repeat bottom left;
+			background: url(../images/AH-logo-mobile.svg) no-repeat bottom left;
 			background-size: contain;
 		}
 	}
@@ -825,7 +825,7 @@ h1,
 		padding-top: 5px;
 
 		@include bp(s){
-			margin-top: 20px;
+			margin-top: 20px; 
 			display: none;
 		}
 	}
@@ -844,6 +844,26 @@ h1,
 		margin-bottom: 40px;
 		padding-bottom: 40px;
 		border-bottom: $border_dashed_accent;
+	}
+}
+
+.credits{
+
+	.field-name-field-role{
+		@include inline-block;
+		margin-right: 10px;
+	}
+
+	.field-name-field-credit-link{
+		@include inline-block;
+		font-family: $font_header;
+		font-weight: 400;
+		letter-spacing: 1px;
+		font-size: .8em;
+	}
+
+	h2{
+		margin-bottom: 10px;
 	}
 }
 
@@ -1029,7 +1049,8 @@ body.mceContentBody,
 		float: none;
 		margin: 0 0 20px;
 		width: 100%;
-		text-align: center;
+		/*text-align: center !important;*/
+		font-size: 1.2em;
 	}
 }
 
@@ -1047,7 +1068,8 @@ body.mceContentBody,
 		float: none;
 		margin: 0 0 20px;
 		width: 100%;
-		text-align: center;
+		/*text-align: center !important;*/
+		font-size: 1.2em;
 	}
 }
 
@@ -1119,6 +1141,10 @@ body.mceContentBody,
 .push-right,
 .fluid-width-video-wrapper{
 	margin-bottom: 60px;
+
+	@include bp(s){
+		margin-bottom: 20px;
+	}
 }
 
 .image-post_half{

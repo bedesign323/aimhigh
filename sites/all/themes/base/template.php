@@ -43,6 +43,7 @@ function base_preprocess_node(&$vars){
 		$vars['service_links'] =  render($vars['content']['service_links']);
 		$vars['comment_count'] = l('Comments ' . $vars['comment_count'], $url . '#comments');
 		$vars['author'] =  render($vars['content']['field_author']);
+		$vars['credits'] =  render($vars['content']['field_credits']);
 		
 
 		// Author Details
@@ -70,6 +71,8 @@ function base_preprocess_node(&$vars){
 
 		}
 	}
+
+	kpr($vars);
 }
 
 /**
