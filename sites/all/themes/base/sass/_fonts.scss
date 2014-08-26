@@ -28,7 +28,11 @@
 	font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"], .service-links li a, #cboxClose.cbox-close-plain {
+[class^="icon-"], [class*=" icon-"],
+.service-links li a,
+#cboxClose.cbox-close-plain,
+li.service-links-pinterest-button {
+	cursor: pointer;
 	font-family: 'aimhigh';
 	speak: none;
 	font-style: normal;

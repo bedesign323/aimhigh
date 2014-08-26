@@ -1515,8 +1515,11 @@ $share_icon_width: 			80px;
 	&.service-links-pinterest-button:before{
 		content: "\e607";
 	} 
-
 }
+
+.service-links li.service-links-pinterest-button a:before{
+		content: "\e607";
+	} 
 
 .teaser .service-links{
 	float: left;
@@ -1526,6 +1529,10 @@ $share_icon_width: 			80px;
 		margin: 0 10px 0 0;
 	}
 
+}
+
+.teaser li.service-links-pinterest-button{
+	display: none;
 }
 
 .full .service-links{

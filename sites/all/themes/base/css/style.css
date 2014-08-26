@@ -120,7 +120,11 @@ body.mceContentBody p.image-holder:after,
   font-style: normal;
 }
 /* line 31, ../sass/_fonts.scss */
-[class^="icon-"], [class*=" icon-"], .service-links li a, #cboxClose.cbox-close-plain {
+[class^="icon-"], [class*=" icon-"],
+.service-links li a,
+#cboxClose.cbox-close-plain,
+li.service-links-pinterest-button {
+  cursor: pointer;
   font-family: 'aimhigh';
   speak: none;
   font-style: normal;
@@ -133,217 +137,217 @@ body.mceContentBody p.image-holder:after,
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* line 46, ../sass/_fonts.scss */
+/* line 50, ../sass/_fonts.scss */
 .icon-rss:before {
   content: "\e609";
 }
 
-/* line 49, ../sass/_fonts.scss */
+/* line 53, ../sass/_fonts.scss */
 .icon-arrow-left:before {
   content: "\e600";
 }
 
-/* line 52, ../sass/_fonts.scss */
+/* line 56, ../sass/_fonts.scss */
 .icon-arrow-down:before {
   content: "\e601";
 }
 
-/* line 55, ../sass/_fonts.scss */
+/* line 59, ../sass/_fonts.scss */
 .icon-arrow-up:before {
   content: "\e602";
 }
 
-/* line 58, ../sass/_fonts.scss */
+/* line 62, ../sass/_fonts.scss */
 .icon-arrow-right:before {
   content: "\e603";
 }
 
-/* line 61, ../sass/_fonts.scss */
+/* line 65, ../sass/_fonts.scss */
 .icon-twitter:before {
   content: "\e604";
 }
 
-/* line 64, ../sass/_fonts.scss */
+/* line 68, ../sass/_fonts.scss */
 .icon-facebook:before {
   content: "\e605";
 }
 
-/* line 67, ../sass/_fonts.scss */
+/* line 71, ../sass/_fonts.scss */
 .icon-googleplus:before {
   content: "\e606";
 }
 
-/* line 70, ../sass/_fonts.scss */
+/* line 74, ../sass/_fonts.scss */
 .icon-pinterest:before {
   content: "\e607";
 }
 
-/* line 73, ../sass/_fonts.scss */
+/* line 77, ../sass/_fonts.scss */
 .icon-instagram:before {
   content: "\e608";
 }
 
-/* line 76, ../sass/_fonts.scss */
+/* line 80, ../sass/_fonts.scss */
 .icon-eye:before {
   content: "\e000";
 }
 
-/* line 79, ../sass/_fonts.scss */
+/* line 83, ../sass/_fonts.scss */
 .icon-paper-clip:before {
   content: "\e001";
 }
 
-/* line 82, ../sass/_fonts.scss */
+/* line 86, ../sass/_fonts.scss */
 .icon-mail:before {
   content: "\e002";
 }
 
-/* line 85, ../sass/_fonts.scss */
+/* line 89, ../sass/_fonts.scss */
 .icon-link:before {
   content: "\e005";
 }
 
-/* line 88, ../sass/_fonts.scss */
+/* line 92, ../sass/_fonts.scss */
 .icon-camera:before {
   content: "\e017";
 }
 
-/* line 91, ../sass/_fonts.scss */
+/* line 95, ../sass/_fonts.scss */
 .icon-video:before {
   content: "\e018";
 }
 
-/* line 94, ../sass/_fonts.scss */
+/* line 98, ../sass/_fonts.scss */
 .icon-cog:before {
   content: "\e023";
 }
 
-/* line 97, ../sass/_fonts.scss */
+/* line 101, ../sass/_fonts.scss */
 .icon-heart:before {
   content: "\e024";
 }
 
-/* line 100, ../sass/_fonts.scss */
+/* line 104, ../sass/_fonts.scss */
 .icon-search:before {
   content: "\e036";
 }
 
-/* line 103, ../sass/_fonts.scss */
+/* line 107, ../sass/_fonts.scss */
 .icon-zoom-in:before {
   content: "\e037";
 }
 
-/* line 106, ../sass/_fonts.scss */
+/* line 110, ../sass/_fonts.scss */
 .icon-zoom-out:before {
   content: "\e038";
 }
 
-/* line 109, ../sass/_fonts.scss */
+/* line 113, ../sass/_fonts.scss */
 .icon-skip-back:before {
   content: "\e050";
 }
 
-/* line 112, ../sass/_fonts.scss */
+/* line 116, ../sass/_fonts.scss */
 .icon-rewind:before {
   content: "\e051";
 }
 
-/* line 115, ../sass/_fonts.scss */
+/* line 119, ../sass/_fonts.scss */
 .icon-play:before {
   content: "\e052";
 }
 
-/* line 118, ../sass/_fonts.scss */
+/* line 122, ../sass/_fonts.scss */
 .icon-pause:before {
   content: "\e053";
 }
 
-/* line 121, ../sass/_fonts.scss */
+/* line 125, ../sass/_fonts.scss */
 .icon-stop:before {
   content: "\e054";
 }
 
-/* line 124, ../sass/_fonts.scss */
+/* line 128, ../sass/_fonts.scss */
 .icon-fast-forward:before {
   content: "\e055";
 }
 
-/* line 127, ../sass/_fonts.scss */
+/* line 131, ../sass/_fonts.scss */
 .icon-skip-forward:before {
   content: "\e056";
 }
 
-/* line 130, ../sass/_fonts.scss */
+/* line 134, ../sass/_fonts.scss */
 .icon-tag:before {
   content: "\e085";
 }
 
-/* line 133, ../sass/_fonts.scss */
+/* line 137, ../sass/_fonts.scss */
 .icon-star:before {
   content: "\e093";
 }
 
-/* line 136, ../sass/_fonts.scss */
+/* line 140, ../sass/_fonts.scss */
 .icon-arrow-left2:before {
   content: "\e094";
 }
 
-/* line 139, ../sass/_fonts.scss */
+/* line 143, ../sass/_fonts.scss */
 .icon-arrow-right2:before {
   content: "\e095";
 }
 
-/* line 142, ../sass/_fonts.scss */
+/* line 146, ../sass/_fonts.scss */
 .icon-arrow-up2:before {
   content: "\e096";
 }
 
-/* line 145, ../sass/_fonts.scss */
+/* line 149, ../sass/_fonts.scss */
 .icon-arrow-down2:before {
   content: "\e097";
 }
 
-/* line 148, ../sass/_fonts.scss */
+/* line 152, ../sass/_fonts.scss */
 .icon-volume:before {
   content: "\e098";
 }
 
-/* line 151, ../sass/_fonts.scss */
+/* line 155, ../sass/_fonts.scss */
 .icon-mute:before {
   content: "\e099";
 }
 
-/* line 154, ../sass/_fonts.scss */
+/* line 158, ../sass/_fonts.scss */
 .icon-plus:before {
   content: "\e114";
 }
 
-/* line 157, ../sass/_fonts.scss */
+/* line 161, ../sass/_fonts.scss */
 .icon-minus:before {
   content: "\e115";
 }
 
-/* line 160, ../sass/_fonts.scss */
+/* line 164, ../sass/_fonts.scss */
 .icon-check:before {
   content: "\e116";
 }
 
-/* line 163, ../sass/_fonts.scss */
+/* line 167, ../sass/_fonts.scss */
 .icon-cross:before {
   content: "\e117";
 }
 
-/* line 166, ../sass/_fonts.scss */
+/* line 170, ../sass/_fonts.scss */
 .icon-move:before {
   content: "\e118";
 }
 
-/* line 169, ../sass/_fonts.scss */
+/* line 173, ../sass/_fonts.scss */
 .icon-menu:before {
   content: "\e120";
 }
 
-/* line 172, ../sass/_fonts.scss */
+/* line 176, ../sass/_fonts.scss */
 .icon-ellipsis:before {
   content: "\e129";
 }
@@ -2199,11 +2203,16 @@ ul.inline, ul.links.inline {
   content: "\e607";
 }
 
-/* line 1521, ../sass/style.scss */
+/* line 1520, ../sass/style.scss */
+.service-links li.service-links-pinterest-button a:before {
+  content: "\e607";
+}
+
+/* line 1524, ../sass/style.scss */
 .teaser .service-links {
   float: left;
 }
-/* line 1524, ../sass/style.scss */
+/* line 1527, ../sass/style.scss */
 .teaser .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2213,7 +2222,12 @@ ul.inline, ul.links.inline {
   margin: 0 10px 0 0;
 }
 
-/* line 1533, ../sass/style.scss */
+/* line 1534, ../sass/style.scss */
+.teaser li.service-links-pinterest-button {
+  display: none;
+}
+
+/* line 1540, ../sass/style.scss */
 .full .service-links li {
   display: inline-block;
   vertical-align: middle;
@@ -2222,7 +2236,7 @@ ul.inline, ul.links.inline {
   *display: inline;
   margin: 0 10px;
 }
-/* line 1538, ../sass/style.scss */
+/* line 1545, ../sass/style.scss */
 .full .service-links a {
   background-image: none  !important;
   font-size: 40px !important;
@@ -2234,43 +2248,43 @@ ul.inline, ul.links.inline {
   vertical-align: middle !important;
 }
 
-/* line 1550, ../sass/style.scss */
+/* line 1557, ../sass/style.scss */
 .full .share-post {
   text-align: center;
   padding-top: 60px;
 }
-/* line 1554, ../sass/style.scss */
+/* line 1561, ../sass/style.scss */
 .full .share-post h2 {
   font-weight: 200;
   color: #e4ba27;
   font-size: 30px;
   margin-bottom: 10px;
 }
-/* line 1561, ../sass/style.scss */
+/* line 1568, ../sass/style.scss */
 .full .share-post h3 {
   font-family: "GaramondPremierProLightDisplay", serif;
   font-style: italic;
   margin-bottom: 10px;
 }
-/* line 1567, ../sass/style.scss */
+/* line 1574, ../sass/style.scss */
 .full .share-post ul li {
   margin: 0 10px;
 }
-/* line 1572, ../sass/style.scss */
+/* line 1579, ../sass/style.scss */
 .full .share-post .pinterest {
   background: url(../images/service_links/pinterest.png) no-repeat;
   width: 80px;
   height: 80px;
   display: block;
 }
-/* line 1579, ../sass/style.scss */
+/* line 1586, ../sass/style.scss */
 .full .share-post a {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-/* line 1583, ../sass/style.scss */
+/* line 1590, ../sass/style.scss */
 .full .share-post a:hover {
   background-color: #eeeeee;
   color: #e4ba27;
@@ -2278,39 +2292,39 @@ ul.inline, ul.links.inline {
 
 /* FORMS
 -------------------------------------------------------------- */
-/* line 1593, ../sass/style.scss */
+/* line 1600, ../sass/style.scss */
 form {
   max-width: 600px;
   margin: 0 auto 0;
   background-color: #f1f1f1;
   padding: 60px;
 }
-/* line 1599, ../sass/style.scss */
+/* line 1606, ../sass/style.scss */
 form .form-item .description {
   font-size: 12px;
   margin-top: 3px;
   font-family: "Raleway", sans-serif;
   font-weight: 400;
 }
-/* line 1606, ../sass/style.scss */
+/* line 1613, ../sass/style.scss */
 form .form-required {
   color: #e4ba27;
   font-size: 20px;
 }
 @media (max-width: 600px) {
-  /* line 1593, ../sass/style.scss */
+  /* line 1600, ../sass/style.scss */
   form {
     padding: 20px;
     margin: 10px;
   }
 }
 
-/* line 1617, ../sass/style.scss */
+/* line 1624, ../sass/style.scss */
 .form-item {
   margin-top: 0;
 }
 
-/* line 1619, ../sass/style.scss */
+/* line 1626, ../sass/style.scss */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -2325,7 +2339,7 @@ textarea {
   font-weight: 200;
   color: #a2a2a2;
 }
-/* line 1633, ../sass/style.scss */
+/* line 1640, ../sass/style.scss */
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -2334,7 +2348,7 @@ textarea:focus {
   color: #888;
 }
 
-/* line 1639, ../sass/style.scss */
+/* line 1646, ../sass/style.scss */
 label {
   font-size: 18px;
   margin-bottom: 3px;
@@ -2342,7 +2356,7 @@ label {
   cursor: pointer;
 }
 
-/* line 1646, ../sass/style.scss */
+/* line 1653, ../sass/style.scss */
 input[type="submit"] {
   -moz-transition: all 0.3s;
   -o-transition: all 0.3s;
@@ -2360,18 +2374,18 @@ input[type="submit"] {
   border: none;
   margin-left: 5px;
 }
-/* line 1660, ../sass/style.scss */
+/* line 1667, ../sass/style.scss */
 input[type="submit"]:hover {
   background-color: #e6e6e6;
 }
 
-/* line 1665, ../sass/style.scss */
+/* line 1672, ../sass/style.scss */
 .form-actions {
   text-align: right;
   margin-bottom: 0;
 }
 
-/* line 1670, ../sass/style.scss */
+/* line 1677, ../sass/style.scss */
 ul.tabs {
   text-align: center;
   margin-top: 20px;
@@ -2379,24 +2393,24 @@ ul.tabs {
   border-bottom: #e4ba27 dashed 1px;
   margin-bottom: 40px;
 }
-/* line 1678, ../sass/style.scss */
+/* line 1685, ../sass/style.scss */
 ul.tabs li a {
   padding: 10px 20px;
   border: none !important;
   background-color: transparent !important;
 }
 
-/* line 1692, ../sass/style.scss */
+/* line 1699, ../sass/style.scss */
 .search-form #edit-keys {
   width: 90%;
 }
 @media (max-width: 600px) {
-  /* line 1692, ../sass/style.scss */
+  /* line 1699, ../sass/style.scss */
   .search-form #edit-keys {
     width: 80%;
   }
 }
-/* line 1700, ../sass/style.scss */
+/* line 1707, ../sass/style.scss */
 .search-form #edit-submit {
   position: relative;
   top: 10px;
@@ -2405,19 +2419,19 @@ ul.tabs li a {
 
 /* MESSAGES
 -------------------------------------------------------------- */
-/* line 1709, ../sass/style.scss */
+/* line 1716, ../sass/style.scss */
 div.messages-holder {
   border: none;
   max-width: 800px;
   margin: 0 auto 60px;
 }
-/* line 1714, ../sass/style.scss */
+/* line 1721, ../sass/style.scss */
 div.messages-holder .messages {
   padding: 30px;
   font-family: "Raleway", sans-serif;
   border: none;
 }
-/* line 1720, ../sass/style.scss */
+/* line 1727, ../sass/style.scss */
 div.messages-holder .error,
 div.messages-holder .status {
   background-image: none;
@@ -2425,40 +2439,40 @@ div.messages-holder .status {
 
 /* EXTRAS
 -------------------------------------------------------------- */
-/* line 1728, ../sass/style.scss */
+/* line 1735, ../sass/style.scss */
 body.cke_show_borders {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1730, ../sass/style.scss */
+/* line 1737, ../sass/style.scss */
 .image-post_full {
   position: relative;
   z-index: 1;
 }
 
-/* line 1735, ../sass/style.scss */
+/* line 1742, ../sass/style.scss */
 div.krumo-root {
   width: 800px;
   margin-left: 500px;
 }
 
-/* line 1740, ../sass/style.scss */
+/* line 1747, ../sass/style.scss */
 body.mceContentBody {
   width: 800px !important;
   min-width: 800px;
   margin: 0 auto;
 }
 
-/* line 1747, ../sass/style.scss */
+/* line 1754, ../sass/style.scss */
 #cboxContent, .cboxPhoto {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
 }
 
-/* line 1751, ../sass/style.scss */
+/* line 1758, ../sass/style.scss */
 #cboxClose.cbox-close-plain {
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
