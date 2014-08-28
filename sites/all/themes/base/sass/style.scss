@@ -927,7 +927,7 @@ body.mceContentBody,
 			font-weight: 300;
 			margin-bottom: 30px;
 			font-size: 30px;
-			width: 80%;
+			
 			color: $color_accent;
 			text-align: center;
 		}
@@ -1152,6 +1152,14 @@ body.mceContentBody,
 	width: 50%;
 }
 
+.image-instagram-small{
+	float: left;
+	max-width: 33%;
+}
+
+.field-type-text-with-summary{
+	@include pie-clearfix;
+}
 .content-center{
 	@extend .clearfix;
 	margin-top: 60px;
