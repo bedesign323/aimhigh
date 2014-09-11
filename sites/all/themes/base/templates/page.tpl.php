@@ -9,16 +9,7 @@
 				<div class="search-toggle"><div class="icon-search"></div></div>
 				</div>
 			</div>
-			<div class="login-nav">
-				<?php if(!$logged_in): ?>
-					<a href="/user/login">Login</a><span class="bull">~</span><a href="/user/register">Join</a>
-				<?php else: ?>
-					<a href="/user">Profile</a><span class="bull">~</span><a href="/user/edit">Settings</a><span class="bull">~</span ><a href="/user/logout">Logout</a>
-				<?php endif; ?>
-			</div>
-
 			
-
 			<?php echo render($page['sidebar_first']); ?>
 			<div class="plane"><img src="/sites/all/themes/base/images/AH-plane-wt.png" alt="Aim High plane" nopin="nopin"></div>
 

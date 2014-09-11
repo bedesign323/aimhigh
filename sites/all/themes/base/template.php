@@ -137,7 +137,7 @@ function base_form_alter(&$form, &$form_state, $form_id) {
 
   if ($form_id == 'search_form') {
   	$form['basic']['submit'] = array('#type' => 'image_button', '#src' => base_path() . path_to_theme() . '/images/search_btn-accent.png');
-    kpr($form);
+    //kpr($form);
   }
 } 
 

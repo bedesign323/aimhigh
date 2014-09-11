@@ -8,7 +8,7 @@ Drupal.behaviors.init = {
 
 
 		// Sidebar control
-		jQuery('#side-control, .search-toggle, #main-overlay').click(function(){
+		jQuery('#side-control, .search-toggle, #main-overlay').once().click(function(){
 			jQuery('body').toggleClass('side-open');
 			setTimeout(function(){
 				jQuery('body').toggleClass('side-opened');
@@ -43,8 +43,8 @@ Drupal.behaviors.init = {
 		jQuery('.fancy-sep').parent().addClass('fancy-sep-parent');
 
 		// Comments
-		jQuery('.comment-form-holder h2').after('<div class="btn-big"><a href="#">+ add comment</a></div>');
-		jQuery('.comment-form-holder .btn-big').click(function(){
+		jQuery('.comment-form-holder h2').once().after('<div class="btn-big"><a href="#">+ add comment</a></div>');
+		jQuery('.comment-form-holder .btn-big').once().click(function(){
 			jQuery('.comment-form-holder form').slideToggle();
 			return false;
 		});
@@ -66,9 +66,8 @@ Drupal.behaviors.init = {
 			jQuery('#main-nav').css({'top' : nav_top});
 		}
 
-		jQuery('.menu-toggle').click(function(){
+		jQuery('.menu-toggle').once().click(function(){
 			jQuery('#main-nav .inner-nav').slideToggle(800);
-			console.log('ascsdfsd');
 			return false;
 		});
 
@@ -79,7 +78,7 @@ Drupal.behaviors.init = {
 Drupal.behaviors.scroll = {
 	attach: function (context, settings) {
 
-		jQuery('#extras .inner').mCustomScrollbar({
+		jQuery('#extras .inner').once().mCustomScrollbar({
 			'scrollInertia' : 0,
 			'autoHideScrollbar' : true,
 		});
